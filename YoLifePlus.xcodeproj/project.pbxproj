@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E9465A1ED8FF5D0043B17E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E946591ED8FF5D0043B17E /* AppDelegate.swift */; };
+		58E9465F1ED8FF5D0043B17E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E9465D1ED8FF5D0043B17E /* Main.storyboard */; };
+		58E946621ED8FF5D0043B17E /* YoLifePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58E946601ED8FF5D0043B17E /* YoLifePlus.xcdatamodeld */; };
+		58E946641ED8FF5D0043B17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E946631ED8FF5D0043B17E /* Assets.xcassets */; };
+		58E946671ED8FF5D0043B17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E946651ED8FF5D0043B17E /* LaunchScreen.storyboard */; };
+		58E946721ED902890043B17E /* categoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E946711ED902890043B17E /* categoryCell.swift */; };
+		58E946741ED906A10043B17E /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E946731ED906A10043B17E /* extensions.swift */; };
+		58E946761ED90EEE0043B17E /* homePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E946751ED90EEE0043B17E /* homePageController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58E946561ED8FF5D0043B17E /* YoLifePlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoLifePlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E946591ED8FF5D0043B17E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58E9465E1ED8FF5D0043B17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E946611ED8FF5D0043B17E /* YoLifePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YoLifePlus.xcdatamodel; sourceTree = "<group>"; };
+		58E946631ED8FF5D0043B17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58E946661ED8FF5D0043B17E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58E946681ED8FF5D0043B17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E946711ED902890043B17E /* categoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryCell.swift; sourceTree = "<group>"; };
+		58E946731ED906A10043B17E /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		58E946751ED90EEE0043B17E /* homePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePageController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E946531ED8FF5D0043B17E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E9464D1ED8FF5D0043B17E = {
+			isa = PBXGroup;
+			children = (
+				58E946581ED8FF5D0043B17E /* YoLifePlus */,
+				58E946571ED8FF5D0043B17E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E946571ED8FF5D0043B17E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E946561ED8FF5D0043B17E /* YoLifePlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E946581ED8FF5D0043B17E /* YoLifePlus */ = {
+			isa = PBXGroup;
+			children = (
+				58E946701ED8FFA60043B17E /* Controller */,
+				58E9466F1ED8FFA00043B17E /* View */,
+				58E9466E1ED8FF7E0043B17E /* Model */,
+				58E946591ED8FF5D0043B17E /* AppDelegate.swift */,
+				58E9465D1ED8FF5D0043B17E /* Main.storyboard */,
+				58E946631ED8FF5D0043B17E /* Assets.xcassets */,
+				58E946651ED8FF5D0043B17E /* LaunchScreen.storyboard */,
+				58E946681ED8FF5D0043B17E /* Info.plist */,
+				58E946601ED8FF5D0043B17E /* YoLifePlus.xcdatamodeld */,
+			);
+			path = YoLifePlus;
+			sourceTree = "<group>";
+		};
+		58E9466E1ED8FF7E0043B17E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58E946731ED906A10043B17E /* extensions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		58E9466F1ED8FFA00043B17E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58E946711ED902890043B17E /* categoryCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		58E946701ED8FFA60043B17E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58E946751ED90EEE0043B17E /* homePageController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E946551ED8FF5D0043B17E /* YoLifePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E9466B1ED8FF5D0043B17E /* Build configuration list for PBXNativeTarget "YoLifePlus" */;
+			buildPhases = (
+				58E946521ED8FF5D0043B17E /* Sources */,
+				58E946531ED8FF5D0043B17E /* Frameworks */,
+				58E946541ED8FF5D0043B17E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoLifePlus;
+			productName = YoLifePlus;
+			productReference = 58E946561ED8FF5D0043B17E /* YoLifePlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E9464E1ED8FF5D0043B17E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JucongHe;
+				TargetAttributes = {
+					58E946551ED8FF5D0043B17E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3QSRPZRY9E;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58E946511ED8FF5D0043B17E /* Build configuration list for PBXProject "YoLifePlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58E9464D1ED8FF5D0043B17E;
+			productRefGroup = 58E946571ED8FF5D0043B17E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E946551ED8FF5D0043B17E /* YoLifePlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E946541ED8FF5D0043B17E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E946671ED8FF5D0043B17E /* LaunchScreen.storyboard in Resources */,
+				58E946641ED8FF5D0043B17E /* Assets.xcassets in Resources */,
+				58E9465F1ED8FF5D0043B17E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E946521ED8FF5D0043B17E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E946741ED906A10043B17E /* extensions.swift in Sources */,
+				58E946621ED8FF5D0043B17E /* YoLifePlus.xcdatamodeld in Sources */,
+				58E9465A1ED8FF5D0043B17E /* AppDelegate.swift in Sources */,
+				58E946721ED902890043B17E /* categoryCell.swift in Sources */,
+				58E946761ED90EEE0043B17E /* homePageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58E9465D1ED8FF5D0043B17E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E9465E1ED8FF5D0043B17E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58E946651ED8FF5D0043B17E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E946661ED8FF5D0043B17E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E946691ED8FF5D0043B17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58E9466A1ED8FF5D0043B17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E9466C1ED8FF5D0043B17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoLifePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jucong.YoLifePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		58E9466D1ED8FF5D0043B17E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoLifePlus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jucong.YoLifePlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E946511ED8FF5D0043B17E /* Build configuration list for PBXProject "YoLifePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E946691ED8FF5D0043B17E /* Debug */,
+				58E9466A1ED8FF5D0043B17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E9466B1ED8FF5D0043B17E /* Build configuration list for PBXNativeTarget "YoLifePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E9466C1ED8FF5D0043B17E /* Debug */,
+				58E9466D1ED8FF5D0043B17E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58E946601ED8FF5D0043B17E /* YoLifePlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58E946611ED8FF5D0043B17E /* YoLifePlus.xcdatamodel */,
+			);
+			currentVersion = 58E946611ED8FF5D0043B17E /* YoLifePlus.xcdatamodel */;
+			path = YoLifePlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58E9464E1ED8FF5D0043B17E /* Project object */;
+}
